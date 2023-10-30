@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gh-api-assistant"
+version = "0.0.0"
+description = "An AI enabled assistant for the Github REST API."
+authors = ["Roger Milroy <rogermilroy@icloud.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = { version = "0.0.321", extras = ["llms"] }
+chromadb = "^0.4"
+requests = "^2.31.0"
+tiktoken = "^0.5.1"
+pytest = "^7.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
