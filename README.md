@@ -8,8 +8,9 @@ documentation. In this case a conversational interface.
 There are only a couple of steps to using the github API assistant:
 
 1. Clone the repo
-2. Add an OpenAI api key to a text file in <repo_root>/gh_api_assistant/api_key.txt.
-3. Run the main file eg.
+2. cd into <repo_root>/gh_api_assistant/
+3. Add an OpenAI api key to <repo_root>/gh_api_assistant/api_key.txt.
+4. Run the main file eg.
 
 ```bash
 python3 main.py
